@@ -4,5 +4,6 @@
 
 // the filename is the file you are using 
 
-// NB: you don't have to know this, it's not compulsory for this course
+// NB: you don't have to know this, you don't even have to use it, you can keep using your browser
+//it's not compulsory for this course
 // its just a side knowledge
