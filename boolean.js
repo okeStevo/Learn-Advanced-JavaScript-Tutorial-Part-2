@@ -1,21 +1,8 @@
-let booleanCheck = !false; // not false - true
-let booleanCheck2 = !true; // false
+// to be able to run you console.log in you terminal, you have to install node.js
+// and then you can head over to you terminal in vs code and run the command  
+// node filename.js
 
-if ((booleanCheck = true)) {
-  //   console.log("it is true");
-}
+// the filename is the file you are using 
 
-// string literals
-
-let myName = "stephen";
-let age = 16;
-
-const profile = `my name is ${myName} and i am ${age} years old`;
-// console.log(profile);
-
-// loops
-const myArray = ["tall", 19, "dark"];
-console.log(myArray);
-for (const each of myArray) {
-  console.log(each);
-}
+// NB: you don't have to know this, it's not compulsory for this course
+// its just a side knowledge
