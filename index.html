@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section id="intro">
+        <p id="text-to-change">
+          this text should change when the button below gets clicked
+        </p>
+        <p id="button">
+          <button>click me !!</button>
+        </p>
+      </section>
+      <section>
+        <div class="form">
+          <p>
+            <label for="title">name</label>
+            <input
+              id="title"
+              type="text"
+              name="title"
+              required
+              maxlength="50"
+              minlength="3"
+            />
+            <span class="counter">50</span>/50
+          </p>
+        </div>
+      </section>
+      <!-- basic math operation calculator -->
+      <section>
+        <div class="calculator">
+          <input type="number" /> + <input type="number" /> =
+          <span>--result--</span>
+          <div></div>
+          <button>Add</button>
+        </div>
+        <div class="calculator">
+          <input type="number" /> - <input type="number" /> =
+          <span>--result--</span>
+          <div></div>
+          <button>substract</button>
+        </div>
+        <div class="calculator">
+          <input type="number" /> / <input type="number" /> =
+          <span>--result--</span>
+          <div></div>
+          <button>Divide</button>
+        </div>
+        <div class="calculator">
+          <input type="number" /> * <input type="number" /> =
+          <span>--result--</span>
+          <div></div>
+          <button>multiply</button>
+        </div>
+      </section>
+
+      <!-- form handling and submission -->
+      <section>
+        <form class="form">
+          <p>
+            <label htmlFor="title">Title</label>
+            <input id="title" type="text" name="title" required />
+          </p>
+
+          <p>
+            <label htmlFor="date">Date</label>
+            <input id="date" type="date" name="date" required />
+          </p>
+          <p>
+            <label htmlFor="description">Description</label>
+            <textarea
+              id="description"
+              name="description"
+              rows="5"
+              required
+            ></textarea>
+          </p>
+          <div class="actions">
+            <button type="reset">Cancel</button>
+            <button>Save</button>
+          </div>
+        </form>
+      </section>
+      <hr />
+      <div class="below-the-form">
+        <!-- <aside class="output-section">
+          <h1></h1>
+          <p></p>
+          <p></p>
+        </aside> -->
+      </div>
+    </main>
+  </body>
+</html>
